@@ -1,0 +1,22 @@
+.btn-light {
+    color: #959494;
+    background: none;
+    border-color: #cfcfcf;
+    &:hover {
+        background-color: #ccc;
+    }
+    &:not([disabled]):not(.disabled):active {
+        color: #959494;
+    }
+        
+}
+.btn-success {
+    background-color: #26b629;
+    &:hover {
+        // background-color: #039be5;
+    }
+}
+.btn {
+    border-radius: 2px;
+    font-family: OpenSans-SemiBold;
+}

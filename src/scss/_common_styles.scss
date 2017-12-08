@@ -1,0 +1,148 @@
+header{
+  padding: 0 100px;
+}
+.header-content{
+  min-height: 60px;
+  height: auto;
+}
+.main-section{
+	background: $Background_color;
+  	padding: 70px 0 1px;
+  	margin: 0;
+    min-height: calc(100vh - 60px);
+}
+.main__container{
+	position: relative;
+ 	width: 96%;
+ 	max-width: 700px;
+ 	margin: 0 auto 100px;
+ 	background: #fff;
+  	position: relative;
+  	padding: 0px 20px 23px;
+}
+.my-account__nav{
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: auto;
+    border-bottom: 1px solid #eeeeee;
+    margin-bottom: 18px;
+}
+.title-my-account{
+    font-size: 15px;
+    font-family: OpenSans-Bold;
+    color: $Main_green;
+    position: relative;
+    top: 2px;
+}
+.account-nav__list{
+	display: inline-flex;
+	align-items: center;
+}
+.account-nav__item{
+	display: flex;
+    height: 50px;
+    align-items: center;
+    margin-right: 40px;
+    position: relative;
+}
+.account-nav__item:last-child{
+	margin-right: 0px;
+}
+.account-nav__item a{
+	font-size: 13px;
+    font-family: OpenSans-Regular;
+    color: #666666;
+    text-decoration: none;
+    text-align: center;
+}
+.account-nav__item.active::before{
+    background: $Main_green;
+	content: '';
+	position: absolute;
+    width: 124%;
+    height: 3px;
+    bottom: 0px;
+    left: -12%;
+}
+.name_data_input {
+    position: relative;
+    margin-bottom: 4px;
+    width: max-content;
+    @include Field-name;
+}
+.name_data_input span{
+	color: #d60b0b;
+    position: absolute;
+    top: -1px;
+    right: -8px;
+}
+.input-noname__block{
+    margin-top: 25px;
+}
+.input_data{
+	width: 100%;
+	height: 34px;
+	padding: 0;
+	padding-left: 10px;
+    padding-right: 30px;
+	border: 1px solid #cfcfcf;
+    border-radius: 2px;
+    @include Field-text;
+}
+.dropdown-input__icon{
+    position: absolute;
+    top: 28px;
+    right: -230px;
+    width: 260px;
+    min-height: 82px;
+    height: auto;
+    background: #fff;
+    border: 1px solid #c4c4c4;
+    border-radius: 3px;
+    padding: 4px 15px 6px 20px;
+    z-index: 2;
+}
+.input-icon__item{
+    margin-bottom: 4px;
+     @include Small-menu-text;
+}
+.input-icon__item:last-child{
+    margin-bottom: 0;
+}
+.wrapper-input{
+	position: relative;
+}
+.wrapper-input svg{
+	position: absolute;
+	right: 10px;
+    transform: translateY(-50%);
+    top: 50%;
+    cursor: pointer;
+}
+.wrapper-input img{
+    position: absolute;
+    right: 10px;
+    transform: translateY(-50%);
+    top: 50%;
+    cursor: pointer;
+}
+.back-button {
+ 	position: absolute;
+ 	top: -33px;
+ 	left: 0;
+}
+.back-button a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.back-button svg{
+	margin-right: 10px;
+}
+.back-button h3{
+ 	color: #969696;
+ 	font-size: 14px;
+    font-family: OpenSans-SemiBold;
+}

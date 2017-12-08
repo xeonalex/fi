@@ -1,0 +1,129 @@
+header{
+  background: #fff;
+}
+.header-logo{
+  max-width: 103px;
+  width: 100%;
+}
+.header-block__center{
+  display: flex;
+  align-items: center;
+}
+.header-nav__list{
+  display: inline-flex;
+  align-items: center;
+}
+.header-nav__item{
+  margin-right: 30px;
+}
+.header-nav__item a{
+  font-size: 14px;
+  font-family: OpenSans-Bold;
+  color: #a0a0a0;
+  text-decoration: none;
+}
+.btn-header {
+  display: flex;
+  align-items: center;
+  background: $Main_green;
+  width: 150px;
+  height: 35px;
+  border-radius: 2px;
+  text-decoration: none;
+}
+.btn-header svg{
+  margin-left: 15px;
+  margin-right: 6px;
+}
+.btn-header span {
+  color: #fff;
+  font-family: OpenSans-SemiBold;
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 34px;
+}
+.header-user__block{
+  display: flex;
+  align-items: center;
+}
+.user-icon__block{
+  display: flex;
+  align-items: center;
+}
+.header-user__icon{
+  position: relative;
+}
+.header-icon_1{
+  margin-right: 18px;
+  position: relative;
+  top: 2px;
+}
+.header-icon_2{
+  margin-right: 21px;
+}
+.header-user__count{
+  position: absolute;
+  top: -8px;
+  color: #fff;
+  font-size: 11px;
+  font-family: OpenSans-Bold;
+  right: -18px;
+  width: 29px;
+  height: 19px;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  background: #25ab28;
+  text-align: center;
+}
+.header-nav__hide{
+  display: none;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  cursor: pointer;
+  margin-right: 15px;
+  top: 1px;
+}
+.hide-nav__line {
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  height: 4px;
+  background: #bcbcbd;
+  border-radius: 3px;
+}
+
+.hide-nav__line-top {
+  top: 5px;
+  transition: 1s;
+}
+
+.hide-nav__line-middle {
+  top: 13px;
+  opacity: 1;
+  transition: 1s;
+}
+
+.hide-nav__line-bottom {
+  top: 21px;
+  transition: 1s;
+}
+
+
+// .header-nav__hide.active .hide-nav__line-top {
+//   top: calc(50% - 2px);
+//   transform: rotate(45deg);
+//   transition: 1s;
+// }
+
+// .header-nav__hide.active .hide-nav__line-middle {
+//   opacity: 0;
+//   transition: 1s;
+// }
+
+// .header-nav__hide.active .hide-nav__line-bottom {
+//   top: calc(50% - 2px);
+//   transform: rotate(-45deg);
+//   transition: 1s;
+//   }

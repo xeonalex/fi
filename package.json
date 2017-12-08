@@ -1,0 +1,40 @@
+{
+  "name": "FounderInvest",
+  "version": "0.0.1",
+  "description": "FounderInvest",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-changed": "latest",
+    "gulp-clean": "^0.3.2",
+    "gulp-cssnano": "latest",
+    "gulp-group-css-media-queries": "^1.2.0",
+    "gulp-plumber": "latest",
+    "gulp-rename": "latest",
+    "gulp-rigger": "^0.5.8",
+    "gulp-shorthand": "latest",
+    "gulp-uncss": "latest",
+    "gulp-watch": "latest",
+    "gulp-zip": "^3.2.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "browser-sync": "latest",
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-concat": "latest",
+    "gulp-imagemin": "latest",
+    "gulp-pug": "latest",
+    "gulp-sass": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-uglify": "latest"
+  }
+}

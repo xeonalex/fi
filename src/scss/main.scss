@@ -1,0 +1,80 @@
+// Подключаем стили библиотек
+@import '_libs.scss';
+
+@import '_vars.scss';
+
+@import '_mixins.scss';
+
+html {
+  line-height: 1;
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+  font-family: OpenSans-Regular;
+  font-size: 14px;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
+
+ul,li{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}  
+
+p {
+  margin: 0;
+}
+  
+a { 
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+}
+textarea {
+  resize: none;
+}
+
+section{
+  position: relative;
+  margin-bottom: 20px;
+}
+
+input,
+select,
+button{
+  outline: none;
+}
+
+*, *:before, *:after{
+  box-sizing: border-box;
+}
+  
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+// Общие стили
+@import '_common_styles.scss';
+
+// Стили шапки
+@import 'modules/_header.scss';
+// Стили страницы My account
+@import 'page/_my_account.scss';
+// Стили страниц Login ad register
+@import 'page/_log.scss';
+// Стили меню
+@import 'modules/_menu.scss';
+// Стили футера
+@import 'modules/_footer.scss';
+
+// кастомный бутстрап
+@import 'modules/_bootstrap.scss';

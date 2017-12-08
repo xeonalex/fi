@@ -1,0 +1,193 @@
+@media screen and (max-width: 1200px) {
+	.dropdown-input__icon{
+		right: 5px;
+	}
+}
+@media screen and (max-width: 1100px) {
+	.header-logo {
+		width: auto;
+	}
+}
+@media screen and (max-width: 992px){
+	header {
+    	padding: 0 40px;
+	}
+	.header-content{
+		padding: 7px 0;
+	}
+	.header-block__center{
+		display: none;
+		order: 2;
+		flex-wrap: wrap;
+		justify-content: center;
+    	width: 100%;
+    	margin-bottom: 5px;
+	}
+	.header-nav__list{
+		width: 100%;
+		justify-content: center;
+	}
+	.header-nav__item:last-child{
+		margin-right: 0;
+	}
+	.btn-header{
+		margin-top: 7px;
+	}
+	.header-nav__hide{
+		display: block;
+	}
+
+}
+@media screen and (max-width: 767px){
+	header {
+    	padding: 0 25px;
+	}
+}
+@media screen and (max-width: 550px){
+	.header-nav__list{
+		flex-direction: column;
+		margin-top: 5px;
+	}
+	.header-nav__item{
+		margin-right: 0;
+		text-align: center;
+		width: 100%;
+		padding: 8px 0;
+		cursor: pointer;
+	}
+	.header-nav__item:hover{
+		background: #b3b1b1;
+	}
+	.header-nav__item:hover a{
+		color: #fff;
+	}
+	.personal_info {
+   	 	padding: 55px 0 1px;
+	}
+	.title-my-account{
+		margin-top: 14px;
+		width: 100%;
+	}
+	.header-logo{
+		display: none;
+	}
+	.header-user__block{
+		width: 100%;
+    	justify-content: space-between;
+	}
+	.top-main__data{
+		flex-wrap: wrap;
+	}
+	.first-name__block{
+		margin-right: 0;
+		max-width: none;
+	}
+	.last-name__block{
+		margin-top: 15px;
+		max-width: none;
+	}
+	.bottom-main__data{
+		flex-wrap: wrap;
+	}
+	.email-block{
+		margin-right: 0;
+		max-width: none;
+	}
+	.phone-block{
+		margin-top: 15px;
+		max-width: none;
+	}
+	.phone-code__block{
+		max-width: none;
+		width: 60%;
+	}
+	.phone-number__block{
+		max-width: none;
+		width: 120%;
+	}
+	.top-adress__data{
+		flex-wrap: wrap;
+	}
+	.country-block{
+		margin-right: 0;
+		max-width: none;
+	}
+	.state-block{
+		margin-right: 0;
+		margin-top: 15px;
+		max-width: none;
+	}
+	.town-block{
+		margin-top: 15px;
+		max-width: none;
+	}
+	.middle-adress__data{
+		flex-wrap: wrap;
+	}
+	.street-block{
+		margin-right: 0;
+		max-width: none;
+	}
+	.house-block{
+		margin-right: 0;
+		margin-top: 15px;
+		max-width: none;
+	}
+	.apartment-block{
+		margin-top: 15px;
+		max-width: none;
+	}
+	.bottom-adress__data{
+		max-width: none;
+	}
+	.zip-code__block{
+		max-width: none;
+		margin-right: 14px;
+	}
+	.post-code__block{
+		max-width: none;
+	}
+	.links__input{
+		flex-wrap: wrap;
+	}
+	.add-links__block{
+		max-width: none;
+		margin-right: 0;
+	}
+	.add-name__links{
+		max-width: none;
+	}
+}
+@media screen and (max-width: 420px){
+	.account-nav__item{
+		margin-right: 20px;
+	}
+	.header-log__logo{
+		display: none;
+	}
+	.header-log__content{
+		justify-content: flex-end;
+	}
+	.log-google__btn{
+		text-align: center;
+		padding: 0 40px;
+	}
+	.log-google__block{
+		margin-top: 35px;
+	}
+	.log-google__btn span{
+		display: none;
+	}
+	.log-input__name{
+		flex-wrap: wrap;
+	}
+	.log-first__name{
+		max-width: none;
+		margin-right: 0;
+	}
+	.log-last__name{
+		max-width: none;
+		margin-right: 0;
+		margin-top: 13px;
+	}
+}

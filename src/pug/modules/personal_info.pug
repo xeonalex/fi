@@ -1,0 +1,174 @@
+section(class="main-section")
+	.main__container
+		.back-button
+			a(href="javascript:void(0)")
+				<svg xmlns="http://www.w3.org/2000/svg" width="20" height="14">
+					<path fill="#909090" fill-rule="evenodd" d="M6.525.2a.708.708 0 0 1 1.008.994L2.42 6.286h16.873a.7.7 0 0 1 .706.703.71.71 0 0 1-.706.713H2.42l5.113 5.082a.72.72 0 0 1 0 1.004.708.708 0 0 1-1.008 0L.2 7.491a.69.69 0 0 1 0-.994L6.525.2z"></path>
+				</svg>
+				<h3>Dashboard</h3>
+		.my-account__nav
+			.title-my-account.text-uppercase
+				span My account
+			ul.account-nav__list
+				li.account-nav__item.active
+					a(href="javascript:void(0)") Personal Info
+				li.account-nav__item
+					a(href="javascript:void(0)") Change password
+				li.account-nav__item
+					a(href="javascript:void(0)") Notification
+		form(action="#" name="main-profile__form")
+			.main-data__block
+				.top-main__data
+					.first-name__block
+						.name_data_input
+							p First Name
+							span *
+						.wrapper-input
+							input(type="text" class="input_data input-first__name" placeholder="Marcus")
+							<img src="static/img/content_profile/main-data__icon.png" alt="Img">
+					.last-name__block
+						.name_data_input
+							p Last Name
+							span *
+						.wrapper-input
+							input(type="text" class="input_data input-last__name" placeholder="Doe")
+							img(src="static/img/content_profile/main-data__icon.png" alt="Img")
+				.bottom-main__data
+					.email-block
+						.name_data_input
+							p Email
+							span *
+						.wrapper-input
+							input(type="text" class="input_data input-email" placeholder="example@examp.le")
+							<svg xmlns="http://www.w3.org/2000/svg" width="18" height="10">
+								<path fill="#969696" fill-rule="evenodd" d="M11.499 6.999a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm-5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm-5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"></path>
+							</svg>
+					.phone-block
+						.phone-code__block
+							.name_data_input
+								p Phone code
+								span *
+							.wrapper-input
+								input(type="text" class="input_data input-phone__code")
+								<img src="static/img/content_profile/bottom-icon.png" alt="Img">
+						.phone-number__block
+							.name_data_input
+								p Number
+								span *
+							.wrapper-input
+								input(type="text" class="input_data input-phone__number" placeholder="4657253")
+								<svg xmlns="http://www.w3.org/2000/svg" width="18" height="10">
+									<path fill="#969696" fill-rule="evenodd" d="M11.499 6.999a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm-5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm-5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"></path>
+								</svg>
+			.adress-data__block
+				.title__block.text-uppercase
+					p Adress
+				.top-adress__data
+					.country-block
+						.name_data_input
+							p Country
+							span *
+						.wrapper-input
+							input(type="text" class="input_data input-country" placeholder="United States")
+							<svg xmlns="http://www.w3.org/2000/svg" width="18" height="10">
+								<path fill="#969696" fill-rule="evenodd" d="M11.499 6.999a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm-5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm-5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"></path>
+							</svg>
+					.state-block
+						.name_data_input
+							p State
+							span *
+						.wrapper-input
+							input(type="text" class="input_data input-state" placeholder="CA")
+							<svg xmlns="http://www.w3.org/2000/svg" width="18" height="10">
+								<path fill="#969696" fill-rule="evenodd" d="M11.499 6.999a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm-5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm-5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"></path>
+							</svg>
+					.town-block
+						.name_data_input
+							p Town
+							span *
+						.wrapper-input
+							input(type="text" class="input_data input-town" placeholder="Los Angeles")
+							<svg xmlns="http://www.w3.org/2000/svg" width="18" height="10">
+								<path fill="#969696" fill-rule="evenodd" d="M11.499 6.999a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm-5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm-5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"></path>
+							</svg>
+				.middle-adress__data
+					.street-block
+						.name_data_input
+							p Street
+							span *
+						.wrapper-input
+							input(type="text" class="input_data input-street" placeholder="Tiana Turnpike")
+							<svg xmlns="http://www.w3.org/2000/svg" width="18" height="14">
+								<path fill="#D87272" fill-rule="evenodd" d="M17.859 7.83c-.048.057-1.153 1.411-3.003 2.639-1.097.725-2.231 1.257-3.372 1.58a9.58 9.58 0 0 1-2.61.369 9.13 9.13 0 0 1-1.719-.162c-.354-.068-.586-.386-.509-.71.073-.322.426-.532.782-.462 2.184.419 4.412-.106 6.617-1.56a14.05 14.05 0 0 0 2.422-2.039 15.149 15.149 0 0 0-2.246-1.98c-.285-.206-.337-.582-.113-.841a.715.715 0 0 1 .932-.103c.954.674 1.894 1.526 2.801 2.538a.56.56 0 0 1 .018.731zM2.924 13.822a.69.69 0 0 1-.465.176.689.689 0 0 1-.466-.176.561.561 0 0 1 0-.848L4.058 11.1C2.715 10.342 1.401 9.254.147 7.858a.56.56 0 0 1-.02-.733c.056-.07 1.395-1.709 3.601-3.014 2.961-1.752 6.067-2.046 8.978-.848l2.349-2.13a.713.713 0 0 1 .936 0 .564.564 0 0 1 0 .849L2.924 13.822zM7.358 8.11l2.335-2.116c-.647-.249-1.428-.136-1.957.343a1.528 1.528 0 0 0-.521 1.141c0 .223.048.436.143.632zM4.451 5.112a13.815 13.815 0 0 0-2.933 2.356C2.66 8.676 3.835 9.6 5.027 10.226l1.362-1.234a2.61 2.61 0 0 1-.491-1.517c0-.749.318-1.454.906-1.986 1.045-.949 2.664-1.075 3.865-.377l1.031-.934c-2.37-.822-4.804-.509-7.249.934z"></path>
+							</svg>
+					.house-block
+						.name_data_input
+							p House
+							span *
+						.wrapper-input
+							input(type="text" class="input_data input-house" placeholder="457")
+							<svg xmlns="http://www.w3.org/2000/svg" width="18" height="14">
+								<path fill="#D87272" fill-rule="evenodd" d="M17.859 7.83c-.048.057-1.153 1.411-3.003 2.639-1.097.725-2.231 1.257-3.372 1.58a9.58 9.58 0 0 1-2.61.369 9.13 9.13 0 0 1-1.719-.162c-.354-.068-.586-.386-.509-.71.073-.322.426-.532.782-.462 2.184.419 4.412-.106 6.617-1.56a14.05 14.05 0 0 0 2.422-2.039 15.149 15.149 0 0 0-2.246-1.98c-.285-.206-.337-.582-.113-.841a.715.715 0 0 1 .932-.103c.954.674 1.894 1.526 2.801 2.538a.56.56 0 0 1 .018.731zM2.924 13.822a.69.69 0 0 1-.465.176.689.689 0 0 1-.466-.176.561.561 0 0 1 0-.848L4.058 11.1C2.715 10.342 1.401 9.254.147 7.858a.56.56 0 0 1-.02-.733c.056-.07 1.395-1.709 3.601-3.014 2.961-1.752 6.067-2.046 8.978-.848l2.349-2.13a.713.713 0 0 1 .936 0 .564.564 0 0 1 0 .849L2.924 13.822zM7.358 8.11l2.335-2.116c-.647-.249-1.428-.136-1.957.343a1.528 1.528 0 0 0-.521 1.141c0 .223.048.436.143.632zM4.451 5.112a13.815 13.815 0 0 0-2.933 2.356C2.66 8.676 3.835 9.6 5.027 10.226l1.362-1.234a2.61 2.61 0 0 1-.491-1.517c0-.749.318-1.454.906-1.986 1.045-.949 2.664-1.075 3.865-.377l1.031-.934c-2.37-.822-4.804-.509-7.249.934z"></path>
+							</svg>
+					.apartment-block
+						.name_data_input
+							p Apartment
+						.wrapper-input
+							input(type="text" class="input_data input-apartment")
+							<svg xmlns="http://www.w3.org/2000/svg" width="18" height="14">
+								<path fill="#D87272" fill-rule="evenodd" d="M17.859 7.83c-.048.057-1.153 1.411-3.003 2.639-1.097.725-2.231 1.257-3.372 1.58a9.58 9.58 0 0 1-2.61.369 9.13 9.13 0 0 1-1.719-.162c-.354-.068-.586-.386-.509-.71.073-.322.426-.532.782-.462 2.184.419 4.412-.106 6.617-1.56a14.05 14.05 0 0 0 2.422-2.039 15.149 15.149 0 0 0-2.246-1.98c-.285-.206-.337-.582-.113-.841a.715.715 0 0 1 .932-.103c.954.674 1.894 1.526 2.801 2.538a.56.56 0 0 1 .018.731zM2.924 13.822a.69.69 0 0 1-.465.176.689.689 0 0 1-.466-.176.561.561 0 0 1 0-.848L4.058 11.1C2.715 10.342 1.401 9.254.147 7.858a.56.56 0 0 1-.02-.733c.056-.07 1.395-1.709 3.601-3.014 2.961-1.752 6.067-2.046 8.978-.848l2.349-2.13a.713.713 0 0 1 .936 0 .564.564 0 0 1 0 .849L2.924 13.822zM7.358 8.11l2.335-2.116c-.647-.249-1.428-.136-1.957.343a1.528 1.528 0 0 0-.521 1.141c0 .223.048.436.143.632zM4.451 5.112a13.815 13.815 0 0 0-2.933 2.356C2.66 8.676 3.835 9.6 5.027 10.226l1.362-1.234a2.61 2.61 0 0 1-.491-1.517c0-.749.318-1.454.906-1.986 1.045-.949 2.664-1.075 3.865-.377l1.031-.934c-2.37-.822-4.804-.509-7.249.934z"></path>
+							</svg>
+							.dropdown-input__icon
+								ul.input-icon__list
+									li.input-icon__item
+										p How this info for all
+									li.input-icon__item
+										p Show only for those who got my offers
+									li.input-icon__item
+										p Show only after request
+				.bottom-adress__data
+					.zip-code__block
+						.name_data_input
+							p Zip code
+							span *
+						.wrapper-input
+							input(type="text" class="input_data input-zip-code" placeholder="17216")
+							<svg xmlns="http://www.w3.org/2000/svg" width="18" height="10">
+								<path fill="#969696" fill-rule="evenodd" d="M11.499 6.999a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm-5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm-5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"></path>
+							</svg>
+					.post-code__block
+						.name_data_input
+							p Post code
+							span *
+						.wrapper-input
+							input(type="text" class="input_data input-post-code" placeholder="03112")
+							<svg xmlns="http://www.w3.org/2000/svg" width="18" height="10">
+								<path fill="#969696" fill-rule="evenodd" d="M11.499 6.999a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm-5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm-5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"></path>
+							</svg>
+			.links-data__block
+				.title__block.text-uppercase
+					p Links
+				.links__data
+					.links__input
+						.add-links__block
+							.name_data_input
+								p Add link
+							.wrapper-input
+								input(type="text" class="input_data input-add-links" placeholder="https://marcusdoe.com")
+								img(src="static/img/content_profile/data-icon.png" alt="Img")
+						.add-name__links.input-noname__block
+							.wrapper-input
+								input(type="text" class="input_data input-name-links" placeholder="Personal web-site")
+					.links__button
+						a(href="javascript:void(0)" class='text-primary') Add new link
+			.photo-data__block
+				.title__block.text-uppercase
+					p Photo
+				.photo__data
+					.photo-block__img
+					a(href="javascript:void(0)" class="photo-block__button btn-light") Upload
+		.main-button__block
+			a(href="javascript:void(0)" class="main-button__save btn-success") Save Changes
+			a(href="javascript:void(0)" class="main-button__cancel btn-light") Cancel
+
+
