@@ -8,7 +8,7 @@
     &:not([disabled]):not(.disabled):active {
         color: #959494;
     }
-        
+
 }
 .btn-success {
     background-color: #26b629;
@@ -19,4 +19,26 @@
 .btn {
     border-radius: 2px;
     font-family: OpenSans-SemiBold;
+}
+
+.form-control {
+  width: 100%;
+  height: 34px;
+  padding: 0;
+  padding-left: 10px;
+  padding-right: 30px;
+  border: 1px solid #cfcfcf;
+  border-radius: 2px;
+  font-family: OpenSans-Regular;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #717171;
+  // padding: .375rem  30px .375rem 10px;
+  // color: #717171;
+  &:focus {
+    border-color: #cfcfcf;
+    color: #717171;
+  }
 }

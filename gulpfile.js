@@ -46,7 +46,7 @@ var path = {
     watch: { //Тут мы укажем, за изменением каких файлов мы хотим наблюдать
         pug: './src/pug/pages/*.pug',
         pugIncludes: ['./src/pug/modules/**/*.pug','./src/pug/layout/*.pug'],
-        js: './src/js/*.js',
+        js: './src/static/js/*.js',
         jsVendor: './src/js/vendor/*.js',
         scss: ["./src/scss/**/*.scss",'./src/scss/_*.scss','!./src/scss/bootstrap/**'],
         img: './src/static/img/**/*',
@@ -165,7 +165,6 @@ gulp.task('js', function(){
   .pipe(plumber())
   // .pipe(rigger())
   .pipe(uglify())
-  .pipe(concat('script.js'))
   .pipe(gulp.dest(path.build.js))
   .pipe(browserSync.stream());
 });
